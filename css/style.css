@@ -119,7 +119,7 @@ body{
   border-radius: 8px;
 }
 .button:hover{
-  background-color: inherit;
+  background-color: transparent; 
   color: var(--accent-color);
 }
 .button:active{
@@ -130,7 +130,8 @@ body{
 
 /* SITE HEADER */
 .site-header{
-  padding: 24px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .site-header__container{
   display: flex;
